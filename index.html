@@ -5,117 +5,84 @@
   <title>EvertonLopesC.</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css">
- 
 </head>
 <body>
-  <ul>
-    <li>
-      <a class="active" href="https://evertonlopesc.github.io/" class="link_home">Home</a>
-    </li>
-    <li>
-      <a href="#about">Sobre Mim</a>
-    </li>
-    <li>
-      <a href="#contact">Contatos</a>
-    </li>
-    <li>
-      <a href="#portfolio">Portfólio</a>
-    </li>
-    <li>
-      <a href="docs/Everton Lopes Costa - Currículo.docx.pdf" download="cv_everton_lc" class="link_cv">
-        Baixar CV.
-      </a>
-    </li>
-  </ul>
-  <div class="grid-container">
-    <div class="item1">
-      <div class="flex-container">
-        <div>
-          <section id="about">
-            <div class="flex-container">
-              <div class="flex-item-left">
-                <h1>Olá, eu me chamo Everton.</h1>
-                <img src="img/profile_one.jpg" alt="profile" width="400" height="400">
-              </div>
-              <div class="flex-item-right">
-                <p>
-                  Comecei meus estudos em 2021 e desde então estou estudando todos os dias pra acompanhar as tecnologias.
-                </p>
-                <p>
-                  Estou trabalhando na área desde julho de 2021 usando Ruby on Rails, versionamento com Git, Github,
-                  PostgreSQL, Bootstrap.
-                </p>
-                <p>
-                  Está nos meus planos aprender em 2022 RSpec e API, que já venho estudando e melhorar meu
-                  Front end com CSS avançado, React e Vuejs.
-                </p>
-              </div>
-            </div>
-          </section>
+    <header>
+      <ul class="flex-container-menu">
+        <li class="flex-item-menu-1">
+          <a class="active" href="https://evertonlopesc.github.io/">Home</a>
+        </li>
+        <li class="flex-item-menu-2">
+          <a href="#about">Sobre Mim</a>
+        </li>
+        <li class="flex-item-menu-3">
+          <a href="#contact">Contatos</a>
+        </li>
+        <li class="flex-item-menu-4">
+          <a href="#portfolio">Portfólio</a>
+        </li>
+        <li class="flex-item-menu-5">
+          <a class="active" href="docs/Everton Lopes Costa - Currículo.docx.pdf" download="cv_everton_lc" class="link_cv">
+            Baixar CV.
+          </a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section class="flex-container-about">
+        <div class="flex-item-about-img">
+          <img src="img/profile_one.jpg" alt="profile" width="400" height="400">
         </div>
-      <div>
-    </div>
-    <div class="item2">
-      <section id="contact">
-        <div>
-          <i class="fas fa-github">
-            <a href="https://github.com/evertonlopesc">Github</a>
-          </i>
-        </div>
-        <div>
-          <i class="fas fa-linkedin">
-            <a href="https://www.linkedin.com/in/everton-lopes-costa/">Linkedin</a>
-          </i>
-        </div>
-        <div>
-          <i class="fas fa-telegram">
-            <a href="https://t.me/everton_lc">Telegram</a>
-          </i>
+        <div class="flex-item-about-text">
+          <h1>Olá, eu me chamo Everton.</h1>
+          <p>
+            Comecei meus estudos em 2021 e desde então estou estudando todos os dias pra acompanhar as tecnologias.
+            Estou trabalhando na área desde julho de 2021 usando Ruby on Rails, versionamento com Git, Github,
+            PostgreSQL, Bootstrap.
+            Está nos meus planos aprender em 2022 RSpec e API, que já venho estudando e melhorar meu
+            Front end com CSS avançado e React.
+          </p>
         </div>
       </section>
-    </div>
-    <div class="item3">
-      <section id="portfolio">
-        <h2>CSS Template</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius nulla eu nunc eleifend, et vestibulum enim dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Curabitur semper molestie purus, vitae porttitor tortor interdum vel. Quisque pellentesque iaculis leo, eu mollis urna consequat sed. Praesent nec ipsum imperdiet, tincidunt nisl nec, 
-          dignissim magna. In nisl felis, dignissim sed sagittis ac, facilisis ut nisi. Donec a turpis vulputate, posuere ex id, feugiat nisl. 
-          Duis finibus efficitur lorem, at molestie mi dapibus non. Aliquam hendrerit id justo eu ultrices. Duis aliquam ex ut tellus molestie, vitae ultrices nunc tempor. 
-          Maecenas malesuada ut urna ut venenatis.
-  
-          Integer et quam quis magna pellentesque tristique eu at ipsum. Etiam suscipit, enim et feugiat ullamcorper, nunc elit scelerisque nunc, finibus facilisis risus sem fringilla neque. 
-          Etiam ultricies nulla et faucibus tristique. Vestibulum lobortis molestie volutpat. Nulla facilisi. Nulla non blandit neque. Donec posuere suscipit nunc, 
-          sit amet mattis lorem ornare eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-  
-          Sed congue est a rhoncus ultrices. Nam in mauris et justo viverra aliquam. Fusce non risus ipsum. Duis velit nisl, elementum eu iaculis maximus, congue in erat. 
-          Etiam vel ipsum lacinia, vulputate magna vitae, suscipit ante. Sed dignissim imperdiet leo non maximus. Mauris vitae velit in sem convallis fringilla. Vivamus nunc orci, 
-          facilisis eu semper ut, ultricies condimentum nulla. Nulla facilisi. Donec posuere ac nibh vel cursus. Maecenas non diam eget nisi ullamcorper ultrices eget sed mi. In iaculis, 
-          libero ac imperdiet vulputate, risus est cursus nisi, non ullamcorper tortor turpis vel erat. Integer sit amet ultrices nibh, nec egestas ex. Suspendisse potenti. Nullam nec 
-          venenatis justo.
-  
-          Sed mollis sem sed lacus efficitur convallis. Nulla rutrum dapibus tempor. Sed pulvinar, est id elementum tincidunt, nisi sem convallis lorem, vel aliquam ligula ipsum quis urna. 
-          Vestibulum vehicula leo ac odio pulvinar efficitur. Fusce id libero sed felis sagittis blandit sed eu purus. Phasellus ornare est ac fringilla consequat. Cras quis posuere massa. 
-          Nunc ex lacus, faucibus nec velit nec, fringilla suscipit lorem. Donec quis enim nec erat sollicitudin viverra sit amet non velit. Donec sem ipsum, lobortis quis malesuada quis, 
-          euismod in odio. Nam a finibus nisi, sed fringilla erat. Nam vel ultrices sem, quis blandit nunc. Integer in augue sit amet orci faucibus consequat ac vel purus. Proin luctus 
-          aliquet erat sit amet tempus. Nam hendrerit nisl condimentum sollicitudin interdum. Ut cursus egestas erat, sed rutrum metus scelerisque ac.
-  
-          Aliquam ornare ante aliquet, vestibulum nunc id, cursus ante. Aenean vitae sagittis quam. Phasellus leo nisl, pharetra eget ipsum id, elementum dapibus nisl. 
-          Ut semper nisl ut odio placerat, vitae viverra tortor lobortis. Phasellus tempor lorem vel laoreet aliquet. Ut condimentum velit ac eros tincidunt, efficitur commodo ligula gravida. 
-          Duis eget condimentum nibh, eu aliquet quam. Praesent in dolor finibus, condimentum justo nec, cursus est. Maecenas ultricies justo in arcu auctor laoreet. Etiam eu tincidunt orci. 
-          Vestibulum volutpat egestas dolor, in facilisis elit dignissim nec. Etiam egestas luctus ex sit amet congue. Aliquam vehicula est nisl, eu pulvinar tellus tristique condimentum. 
-          Duis ultricies sagittis efficitur. Praesent laoreet neque et tristique elementum. Vivamus fringilla velit nec risus lacinia facilisis. 
-        </p>
+      <section class="flex-container-contact">
+        <div class="flex-item-contact-left">
+          <a href="https://github.com/evertonlopesc">Github</a>
+        </div>
+        <div class="flex-item-contact-center">
+          <a href="https://www.linkedin.com/in/everton-lopes-costa/">Linkedin</a>
+        </div>
+        <div class="flex-item-contact-right">
+          <a href="https://t.me/everton_lc">Telegram</a>
+        </div>
       </section>
+      <section >
+        <h2>Portfólio</h2>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius nulla eu nunc eleifend, et vestibulum enim dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Curabitur semper molestie purus, vitae porttitor tortor interdum vel. Quisque pellentesque iaculis leo, eu mollis urna consequat sed. Praesent nec ipsum imperdiet, tincidunt nisl nec,
+            dignissim magna. In nisl felis, dignissim sed sagittis ac, facilisis ut nisi. Donec a turpis vulputate, posuere ex id, feugiat nisl.
+            Duis finibus efficitur lorem, at molestie mi dapibus non. Aliquam hendrerit id justo eu ultrices. Duis aliquam ex ut tellus molestie, vitae ultrices nunc tempor.
+            Maecenas malesuada ut urna ut venenatis.
 
-    </div>
-    <div class="item4">
-      <div class="footer">
+            Integer et quam quis magna pellentesque tristique eu at ipsum. Etiam suscipit, enim et feugiat ullamcorper, nunc elit scelerisque nunc, finibus facilisis risus sem fringilla neque.
+            Etiam ultricies nulla et faucibus tristique. Vestibulum lobortis molestie volutpat. Nulla facilisi. Nulla non blandit neque. Donec posuere suscipit nunc,
+            sit amet mattis lorem ornare eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+            Sed congue est a rhoncus ultrices. Nam in mauris et justo viverra aliquam. Fusce non risus ipsum. Duis velit nisl, elementum eu iaculis maximus, congue in erat.
+            Etiam vel ipsum lacinia, vulputate magna vitae, suscipit ante. Sed dignissim imperdiet leo non maximus. Mauris vitae velit in sem convallis fringilla. Vivamus nunc orci,
+            facilisis eu semper ut, ultricies condimentum nulla. Nulla facilisi. Donec posuere ac nibh vel cursus. Maecenas non diam eget nisi ullamcorper ultrices eget sed mi. In iaculis,
+            libero ac imperdiet vulputate, risus est cursus nisi, non ullamcorper tortor turpis vel erat. Integer sit amet ultrices nibh, nec egestas ex. Suspendisse potenti. Nullam nec
+            venenatis justo.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
         <p>Everton Lopes Costa 2021</p>
       </div>
-    </div>
+    </footer>
   </div>
-
-  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </body>
 </html>
