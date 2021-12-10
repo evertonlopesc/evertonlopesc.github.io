@@ -7,15 +7,27 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header class="menu">
+  <header>
     <div class="navbar">
       <navbar class="bar">
         <ul>
-          <li><a href="#"></a>Logo</li>
-          <li><a href="#about">Sobre Mim</a></li>
-          <li><a href="#contact">Contatos</a></li>
-          <li><a href="#portfolio">Portfólio</a></li>
-          <li><a href="docs/Everton Lopes Costa - Currículo.docx.pdf" download="cv_everton_lc">Baixar CV.</a></li>
+          <div class="botao_home">
+            <li class="logo">
+              <a href="https://evertonlopesc.github.io/" class="link_home">
+                Logo
+              </a>
+            </li>
+          </div>
+          <li class="about"><a href="#about">Sobre Mim</a></li>
+          <li class="contact"><a href="#contact">Contatos</a></li>
+          <li class="portf"><a href="#portfolio">Portfólio</a></li>
+          <div class="botao_cv">
+            <li class="down_cv">
+              <a href="docs/Everton Lopes Costa - Currículo.docx.pdf" download="cv_everton_lc" class="link_cv">
+                Baixar CV.
+              </a>
+            </li>
+          </div>
         </ul>
       </navbar>
     </div>
@@ -34,11 +46,31 @@
     </section>
     <section class="contacts" id="contact">
       <div>
-        <span>github</span>
-        <span>linkedin</span>
-        <span>gmail</span>
-        <span>outlook</span>
-        <span>telegram</span>
+        <span>
+          <i class="fas fa-github">
+            <a href="https://github.com/evertonlopesc">Github</a>
+          </i>
+        </span>
+        <span>
+          <i class="fas fa-linkedin">
+            <a href="https://www.linkedin.com/in/everton-lopes-costa/">Linkedin</a>
+          </i>
+        </span>
+        <span>
+          <i class="fas fa-at">
+            <a href="evertonlopescosta87@gmail.com">Gmail</a>
+          </i>
+        </span>
+        <span>
+          <i class="fas fa-at">
+            <a href="everton.lopess@outlook.com">Outlook</a>
+          </i>
+        </span>
+        <span>
+          <i class="fas fa-telegram">
+            <a href="https://t.me/everton_lc">Telegram</a>
+          </i>
+        </span>
       </div>
     </section>
     <section class="portfolio" id="portfolio">
@@ -50,5 +82,7 @@
   <footer class="footer">
     <p>Everton Lopes Costa 2021</p>
   </footer>
+
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </body>
 </html>

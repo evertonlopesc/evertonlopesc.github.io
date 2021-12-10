@@ -1,8 +1,5 @@
 body {
   position: relative;
-  width: 1280px;
-  height: 1920px;
-
   background: #263B1B;
 }
 
@@ -20,20 +17,143 @@ a {
   text-decoration: none;
 }
 
-.menu {
-  position: absolute;
-  width: 1280px;
-  height: 60px;
-  left: 0px;
-  top: 0px;
-}
-
 .navbar {
   position: absolute;
-  width: 798px;
+  width: 800px;
   height: 40px;
-  left: 241px;
+  margin-left: 30%;
+  margin-right: 30%;
   top: 10px;
+}
+
+.botao_home {
+  position: absolute;
+  width: 102px;
+  height: 26px;
+  left: 95px;
+  top: 8px;
+}
+
+.logo {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  
+  background: #309C34;
+}
+
+.link_home {
+  position: absolute;
+  width: 36px;
+  height: 19px;
+  left: 33px;
+  top: 4px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  
+  /* identical to box height */
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+
+.about {
+  position: absolute;
+  left: 29.45%;
+  right: 58.02%;
+  top: 30%;
+  bottom: 22.5%;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  
+  /* identical to box height */
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+
+.contact {
+  position: absolute;
+  left: 43.73%;
+  right: 43.73%;
+  top: 30%;
+  bottom: 22.5%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* identical to box height */
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.portf {
+  position: absolute;
+  left: 58.02%;
+  right: 29.45%;
+  top: 30%;
+  bottom: 22.5%;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  
+  /* identical to box height */
+  text-align: center;
+  text-decoration-line: underline;
+  
+  color: #FFFFFF;
+}
+
+.botao_cv {
+  position: absolute;
+  width: 102px;
+  height: 26px;
+  left: 601px;
+  top: 8px;
+}
+
+.down_cv {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #309C34;
+}
+
+.link_cv {
+  position: absolute;
+  left: 8.82%;
+  right: 8.82%;
+  top: 19.23%;
+  bottom: 19.23%;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  
+  color: #FFFFFF;
 }
 
 .bar {
@@ -48,9 +168,10 @@ a {
 
 .about_me {
   position: absolute;
-  width: 798px;
+  width: 800px;
   height: 848px;
-  left: 241px;
+  margin-left: 30%;
+  margin-right: 30%;
   top: 90px;
 
   border: 1px solid #FFFFFF;
@@ -60,9 +181,10 @@ a {
 
 .contacts {
   position: absolute;
-  width: 798px;
+  width: 800px;
   height: 100px;
-  left: 241px;
+  margin-left: 30%;
+  margin-right: 30%;
   top: 975px;
 
   border: 1px solid #FFFFFF;
@@ -72,9 +194,10 @@ a {
 
 .portfolio {
   position: absolute;
-  width: 798px;
+  width: 800px;
   height: 672px;
-  left: 241px;
+  margin-left: 30%;
+  margin-right: 30%;
   top: 1111px;
 
   border: 1px solid #FFFFFF;
@@ -84,9 +207,10 @@ a {
 
 .footer {
   position: absolute;
-  width: 798px;
-  height: 65px;
-  left: 241px;
+  width: 800px;
+  height: 40px;
+  margin-left: 30%;
+  margin-right: 30%;
   top: 1815px;
   
   border: 1px solid #FFFFFF;
