@@ -4,6 +4,13 @@
 
 body {
   background-color: #263B1B;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  color: #263B1B;
 }
 
 .flex-container-menu {
@@ -62,7 +69,7 @@ li a:hover:not(.active) {
 .flex-container-about {
   display: flex;
   flex-wrap: wrap;
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
 }
 
@@ -70,6 +77,10 @@ li a:hover:not(.active) {
   background-color: #75B77B;
   padding: 10px;
   flex: 50%;
+}
+
+img {
+  border-radius: 200px;
 }
 
 .flex-item-about-text {
@@ -103,6 +114,21 @@ li a:hover:not(.active) {
   flex: 33%;
 }
 
+.img-github {
+  width: 64px;
+  height: 64px;
+}
+
+.img-linkedin {
+  width: 64px;
+  height: 64px;
+}
+
+.img-telegram {
+  width: 64px;
+  height: 64px;
+}
+
 .flex-item-right {
   background-color: #515151;
   padding: 10px;
@@ -116,7 +142,12 @@ li a:hover:not(.active) {
 }
 
 /* Responsive layout - makes a one column-layout instead of a two-column layout */
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
+  body {
+    width: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
   .flex-item-menu-1, .flex-item-menu-2, .flex-item-menu-3, .flex-item-menu-4, .flex-item-menu-5 {
     flex: 100%;
   }
