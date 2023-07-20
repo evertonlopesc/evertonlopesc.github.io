@@ -80,7 +80,7 @@ nav ul {
 
 /* MAIN */
 section, aside {
-    height: 100vh;
+    height: 70vh;
     background-color: rgba(0,0,0,0.4);
 }
 section p {
