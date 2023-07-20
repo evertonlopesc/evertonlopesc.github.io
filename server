@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run -it --rm -d -p 8080:80 --name portfolio -v ~/Develop/html/portfolio:/usr/share/nginx/html nginx

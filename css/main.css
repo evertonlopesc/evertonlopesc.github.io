@@ -1,0 +1,135 @@
+/* TAG STANDARD */
+body {
+    background-image: url('../images/portfolio-bg2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+ul li {
+    display: inline;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: green;
+}
+/* TAG STANDARD END */
+
+/* CONTAINERS */
+.grid-container-column {
+    display: grid;
+    grid-template-columns: auto:
+}
+
+.grid-item-column {
+    width: 100%;
+    height: 100%;
+}
+
+.grid-container-column-footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid-item-column-footer {
+    width: auto;
+}
+
+.grid-item-row {
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-left, .flex-right {
+    flex: 50%;
+}
+/* CONTAINERS END */
+
+/* HEADER */
+.logo {
+    text-align: center;
+    color: green;
+}
+/* HEADER END */
+
+/* NAVBAR */
+nav ul {
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    height: 100%;
+}
+/* NAVBAR END */
+
+/* MAIN */
+section, aside {
+    height: 100vh;
+    background-color: rgba(0,0,0,0.4);
+}
+section p {
+    margin: 0;
+    padding: 20px;
+}
+section p:nth-child(1) {
+    margin-top: 10%;
+}
+.content {
+    font-size: 3.0em;
+}
+.text-main {
+    text-align: left;
+}
+#main p:nth-child(1) {
+    color: white;
+}
+.link-main {
+    color: white;
+}
+.link-main:hover {
+    color: green;
+}
+/* MAIN END */
+
+/* FOOTER */
+footer {
+    font-size: 0.9em;
+}
+.grid-item-column-footer p:nth-child(1) {
+    color: green;
+}
+@media screen and (max-width: 500px) {
+    .grid-container-column-footer {
+        grid-template-columns: auto;
+    }
+    section p:nth-child(2) {
+        font-size: 2.5em;
+    }
+}
+
+#copyright {
+    font-size: 0.7em;
+}
+/* FOOTER END */
+
+@media screen and (max-width: 1080px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}

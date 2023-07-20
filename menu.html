@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>evertonlopesc</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/logo-fav.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/040e449511.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="menu-container">
+      <div class="menu-links">
+        <p class="title">Menu</p>
+
+        <nav class="link-container">
+          <div class="links">
+            <div>
+              <hr>
+              01
+            </div>
+            <a id="home" class="images" href="index.html">Home</a>
+          </div>
+          <div class="links">
+            <div>
+              <hr>
+              02
+            </div>
+            <a id="about" class="images" href="#">About</a>
+          </div>
+          <div class="links">
+            <div>
+              <hr>
+              03
+            </div>
+            <a id="contact" class="images" href="contact.html">Contact</a>
+          </div>
+          <div class="links">
+            <div>
+              <hr>
+              04
+            </div>
+            <a id="none" class="images" href="#">None</a>
+          </div>
+        </nav>
+
+        <div>
+          <p>Teste</p>
+        </div>
+      </div>
+
+      <div class="menu-images">
+        <div id="image01"></div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script type='text/javascript'>
+  document.getElementById('home').addEventListener('mouseover', function(){
+    document.getElementById('image01').style.backgroundImage = "url(./images/home.jpg)";
+  });
+
+  document.getElementById('about').addEventListener('mouseover', function(){
+    document.getElementById('image01').style.backgroundImage = "url(./images/contact2.png)";
+  });
+
+  document.getElementById('contact').addEventListener('mouseover', function(){
+    document.getElementById('image01').style.backgroundImage = "url(./images/contact.png)";
+  });
+
+  document.getElementById('none').addEventListener('mouseover', function(){
+    document.getElementById('image01').style.backgroundImage = "url(./images/smiley.jpg)";
+  });
+</script>
