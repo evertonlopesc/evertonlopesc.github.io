@@ -1,47 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <title>Portfólio: evertonlopesc</title>
+    <title>Teste com Grid</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/header.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/menu.css" rel="stylesheet">
-    <link href="css/footer.css" rel="stylesheet">
-    <link href="css/about.css" rel="stylesheet">
-    <link rel="shortcut icon" href="./images/logo-fav.png" type="image/x-icon">
+    <link href="style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/logo-fav.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/040e449511.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div class="grid-container-column">
-      <div class="grid-item-column">
-        <div class="flex-container">
-          <header class="flex-left logo">
-            <h3>evertonlopesc</h3>
-          </header>
-          <nav class="flex-right">
-            <!-- <a href="menu.html"><i class="fa-solid fa-bars"></i></a> -->
-            <ul class="flex-container">
+    <div class="grid-container">
+      <div class="grid-item-left">
+        <header>
+          <img src="./img/front-photo.jpg" alt="my photo">
+          <p class="main-name">evertonlopesc</p>
+        </header>
+        <nav>
+          <div class="menu">
+            <ul>
               <li><a href="index.html">Home</a></li>
-              <li><a href="./contact.html">Contact</a></li>
-              <li><a href="./portfolio.html">Portfólio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
             </ul>
-          </nav>
-        </div>
+          </div>
+          <div class="menu-social">
+            <ul class="social">
+              <li>
+                <a href="https://www.linkedin.com/in/everton-lopes-costa/" target="_blank">
+                  <i class="fa-brands fa-linkedin"></i>
+                  LI
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/evertonlopesc" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                  GH
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/everton.lopesc/" target="_blank">
+                  <i class="fa-brands fa-instagram"></i>
+                  IG
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
 
-      <main id="main" class="grid-item-column">
-        <div class="flex-container">
-          <aside class="flex-right">
-            <p>A definir</p>
-          </aside>
-          <section class="flex-left">
-            <p>
-              e foi assim que tudo aconteceu. Sendo assim a minha história do que precisei fazer para ir em outro lugar do qual eu nem sei o que estou digitando
-            </p>
-          </section>
+      <div class="grid-item-right">
+        <div class="arr">
+          <h1>About</h1>
+          <hr>
+
+        <div class="arr">
+          <p>
+            Migrating to the area in 2021 with the opportunity to work with Ruby on Rails. Since then, I have been
+            specializing in this stack that I am really enjoying for its productivity at the time of development.
+            But I keep in mind that to become a better developer I have to learn concepts, code designer and other
+            languages in order to identify the problem and know how to solve it in the best way.
+          </p>
+          <p>
+            I participate in the Ruby community where I can learn, share knowledge and be on top of the language news.
+          </p>
+          <p>
+            Soft skill:
+            Organized | Teamwork | Accept constructive criticism | Proactive | Sense of ownership | Charisma |
+            Empathy | Collaborative
+          </p>
+          <p>
+            Hard skill:
+            Ruby on Rails | RSpec | JavaScript | HTML | CSS | MS SQL Server | PostgreSQL | Git | Github | SCRUM |
+            Clean Code | Linux | Sidekiq | API | OOP | SOLID | Docker
+          </p>
+          <p>
+            Interest:
+            NodeJs, Vue.js, React, Rust, Elixir
+          </p>
         </div>
-      </main>
+        </div>
+      </div>
     </div>
   </body>
 </html>

@@ -1,114 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <title>Portfólio: evertonlopesc</title>
+    <title>Teste com Grid</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/header.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/menu.css" rel="stylesheet">
-    <link href="css/footer.css" rel="stylesheet">
-    <link rel="shortcut icon" href="./images/logo-fav.png" type="image/x-icon">
+    <link href="style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/logo-fav.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/040e449511.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div class="grid-container-column">
+    <div class="grid-container">
+      <div class="grid-item-left">
+        <header>
+          <img src="./img/front-photo.jpg" alt="my photo">
+          <p class="main-name">evertonlopesc</p>
+        </header>
 
-      <div class="grid-item-column">
-        <div class="flex-container">
-          <header class="flex-left logo">
-            <h3>evertonlopesc</h3>
-          </header>
-          <nav class="flex-right">
-            <!-- <a href="menu.html"><i class="fa-solid fa-bars"></i></a> -->
-            <ul class="flex-container">
-              <li><a href="./about.html">About</a></li>
-              <li><a href="./contact.html">Contact</a></li>
-              <li><a href="./portfolio.html">Portfólio</a></li>
+        <nav>
+          <div class="menu">
+            <ul>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
             </ul>
-          </nav>
-        </div>
+          </div>
+
+          <div class="menu-social">
+            <ul class="social">
+              <li>
+                <a href="https://www.linkedin.com/in/everton-lopes-costa/" target="_blank">
+                  <i class="fa-brands fa-linkedin"></i>
+                  LI
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/evertonlopesc" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                  GH
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/everton.lopesc/" target="_blank">
+                  <i class="fa-brands fa-instagram"></i>
+                  IG
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
 
-      <main id="main" class="grid-item-column">
-        <div class="flex-container">
-          <section id="01" class="flex-left">
-            <p class="text-main">Software Developer</p>
-            <p class="content text-main"><strong>Since 2021 learning to build good softwares.</strong></p>
-            <p class="text-main">
-              <a class="link-main" href="contact.html">
-                <i class="fa-solid fa-arrow-right"></i>
-                It all starts with a simple <em>contact</em>
-              </a>
-            </p>
-          </section>
-          <aside class="flex-right">
-            <p>A definir</p>
-          </aside>
+      <div class="grid-item-right">
+        <div class="arr">
+          <p class="text-main">Software Developer</p>
+          <p class="content text-main"><strong>Since 2021 learning to build good softwares.</strong></p>
         </div>
-      </main>
 
-      <footer class="grid-item-column">
-        <div class="grid-container-column-footer">
-          <div class="grid-item-column-footer" id="blog">
-            <p>publication/blog</p>
-            <a href="#">Personal blog</a>
-          </div>
-          <div class="grid-item-column-footer" id="email">
-            <p>E-mail</p>
-            <p>everton.lopess@outlook.com</p>
-          </div>
-          <div class="grid-item-column-footer" id="social">
-            <p>Social</p>
-            <ul>
-              <li><a href="httSps://www.linkedin.com/in/everton-lopes-costa/">LI</a></li>
-              <li><a href="https://github.com/evertonlopesc">GH</a></li>
-              <li><a href="https://www.instagram.com/everton.lopesc/">IG</a></li>
-            </ul>
-          </div>
-          <div class="grid-item-column-footer" id="legal">
-            <p>Legal</p>
-            <ul>
-              <li><a href="#">Term privacy</a></li>
-              <li><a href="#">service</a></li>
-            </ul>
-          </div>
+        <div class="btn">
+          <a class="active_cv" href="docs/Everton Lopes Costa - Currículo.docx.pdf" download="cv_everton_lc">
+            <i class="fa-solid fa-download"></i>
+            Download Resume
+          </a>
         </div>
-      </footer>
-
-      <div class="grid-item-column">
-        <p id="copyright">&copy; Everton L. Costa 2023</p>
       </div>
     </div>
-    <script type='text/javascript'>
-        var modal = document.getElementById("myModal");
-        var btn = document.getElementById("myBtn");
-        var span = document.getElementsByClassName("close")[0];
-
-        btn.onclick = function() { modal.style.display = "block"; }
-
-        span.onclick = function() { modal.style.display = "none"; }
-
-        window.onclick = function(event) { if (event.target == modal) {
-            modal.style.display = "none";
-          }
-        }
-
-        document.getElementById('home').addEventListener('mouseover', function(){
-          document.getElementById('image01').style.backgroundImage = "url(./images/home.jpg)";
-        });
-
-        document.getElementById('about').addEventListener('mouseover', function(){
-          document.getElementById('image01').style.backgroundImage = "url(./images/contact2.png)";
-        });
-
-        document.getElementById('contact').addEventListener('mouseover', function(){
-          document.getElementById('image01').style.backgroundImage = "url(./images/contact.png)";
-        });
-
-        document.getElementById('none').addEventListener('mouseover', function(){
-          document.getElementById('image01').style.backgroundImage = "url(./images/smiley.jpg)";
-        });
-    </script>
   </body>
 </html>
