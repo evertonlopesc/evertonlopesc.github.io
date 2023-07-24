@@ -33,29 +33,23 @@ a:hover {
     display: grid;
     grid-template-columns: auto:
 }
-
 .grid-item-column {
     width: 100%;
     height: 100%;
 }
-
 .grid-container-column-footer {
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
-
 .grid-item-column-footer {
     width: auto;
 }
-
 .grid-item-row {
 }
-
 .flex-container {
     display: flex;
     flex-direction: row;
 }
-
 .flex-left, .flex-right {
     flex: 50%;
 }
@@ -110,6 +104,9 @@ section p:nth-child(1) {
 /* FOOTER */
 footer {
     font-size: 0.9em;
+}
+.grid-container-column-footer {
+    box-shadow: 0 5px 5px gray;
 }
 .grid-item-column-footer p:nth-child(1) {
     color: green;
